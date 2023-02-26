@@ -11,14 +11,8 @@ public class DivisionProblem {
 	     isDivisbleBy(11);
 	     isDivisbleBy(12);
 		a++;
-		
-
 	}
-	
-	
-
-	 static void isDivisbleBy(int a) {
-		
+	 static void isDivisbleBy(int a) {		
 		 boolean status = a%3 ==0 ;
 		System.out.println("is "+ a + " is divisble by 3->"+status);
 	}

@@ -5,7 +5,7 @@ package Java_Beginners;
       ***
       ****       */
 
-public class Pattern1 {
+public class Pattern_10 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
