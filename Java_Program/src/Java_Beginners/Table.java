@@ -1,10 +1,15 @@
  package Java_Beginners;
+
+import java.util.Scanner;
+
 public class Table {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //displayTable(9);
 //displayTableUpto(9);
-		displayTableUptoRowWise(9);		
+		Scanner n=new Scanner(System.in);
+		int m=n.nextInt();
+		displayTableUptoRowWise(m);		
 	}	
 	private static void displayTableUptoRowWise(int m){
 		// TODO Auto-generated method stub	

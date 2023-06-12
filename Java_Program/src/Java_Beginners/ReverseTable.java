@@ -1,11 +1,15 @@
 
 package Java_Beginners;
 
+import java.util.Scanner;
+
 public class ReverseTable {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
- displayTable(8);
+ Scanner s=new Scanner(System.in);
+ int m=s.nextInt();
+ displayTable(m);
 	}
 	private static void displayTable(int m) {
 		// TODO Auto-generated method stub
